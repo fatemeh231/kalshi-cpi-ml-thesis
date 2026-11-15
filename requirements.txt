@@ -1,0 +1,45 @@
+# === Core data stack ===
+pandas>=2.0
+numpy>=1.24
+pyarrow>=14.0
+python-dateutil>=2.8
+pytz>=2023.3
+
+# === HTTP / API ===
+requests>=2.31
+python-dotenv>=1.0
+websocket-client>=1.6
+
+# === Scraping fallback (if Kalshi API is blocked) ===
+beautifulsoup4>=4.12
+lxml>=4.9
+
+# === Visualization ===
+matplotlib>=3.7
+seaborn>=0.13
+
+# === Statistics ===
+scipy>=1.11
+statsmodels>=0.14
+
+# === Machine learning ===
+scikit-learn>=1.3
+xgboost>=2.0
+lightgbm>=4.0
+
+# === Utilities ===
+tqdm>=4.66
+pyyaml>=6.0
+
+# === Notebooks ===
+jupyter>=1.0
+ipykernel>=6.25
+notebook>=7.0
+
+# === Testing (recommended) ===
+pytest>=7.4
+
+# === Optional (uncomment if needed) ===
+# kalshi-python>=1.0       # official Kalshi SDK — we use raw `requests` instead
+# arch>=6.0                # for Diebold-Mariano test — can implement manually in ~20 lines
+# quantstats>=0.0.62       # for Sharpe/drawdown reports — pandas/numpy can do it
