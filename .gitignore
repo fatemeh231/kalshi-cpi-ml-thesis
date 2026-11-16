@@ -1,5 +1,27 @@
-venv/
+# Raw Data (Too large for GitHub)
 data/raw/
-.env
+
+# Processed Data (Except summary files)
+data/processed/*.csv
+!data/processed/h2_test_predictions.csv
+
+# Python Cache
 __pycache__/
+*.py[cod]
 .ipynb_checkpoints/
+
+# Spyder Project Settings
+.spyproject/
+
+# Environment Files
+.env
+venv/
+.venv/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Papers (Keep your thesis draft private for now)
+papers/*.pdf
+papers/*.docx
